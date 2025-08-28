@@ -8,8 +8,8 @@ export default function InterviewCompleted() {
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-[var(--nc-background)] text-primary-foreground">
       <BadgeCheck className="mb-4 h-12 w-12 text-[var(--color-sea-green)]" />
-      <Heading variant="h1">Thank you for participating!</Heading>
-      <Paragraph>Your interview has been successfully completed.</Paragraph>
+      <Heading variant="h1">¡Gracias por participar!</Heading>
+      <Paragraph>Tu entrevista se ha completado con éxito.</Paragraph>
     </div>
   );
 }
